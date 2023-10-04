@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TINA_Bitter_Pre-Listening</title>
+    <style>
+        /* Center the content both horizontally and vertically */
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: bisque;
+            font-family: Georgia, sans-serif;
+        }
+
+        /* Style the image */
+        .centered-image {
+            max-width: 100%; /* Allow the image to be resized to fit the container */
+            max-height: 70vh; /* Limit the height to 70% of the viewport height */
+            display: block;
+            margin: 0 auto; /* Center the image horizontally */
+        }
+
+        /* Style the media player */
+        .media-player {
+            margin-top: 2%;
+            width: 60%;
+            max-width: 600px; /* Limit the width of the player */
+        }
+    </style>
+</head>
+<body>
+    <!-- Centered Image -->
+    <h1>TINA - Bitter</h1>
+    <img src="bittercoverfinal.jpg" alt="Centered Image" class="centered-image">
+
+    <!-- Media Player -->
+    <div class="media-player">
+        <!-- Audio Player Example -->
+        <audio controls>
+            <source src="tina_bitter.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+</html>
